@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    border-left: 36px solid #;
+    border-right:36px solid #;
+    padding: 0 1em;
+}
+.box{
+    width: 600px;
+    height:200px;
+    border: thin solid black;
+    padding: 2em;
+    color: black;
+}
+#box1{
+    background:red;
+    color: ; 
+#box2{
+    background:yellow;
+    color: ;    
+        
+        
+#box2
