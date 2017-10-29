@@ -1,0 +1,55 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+}
+
+a:hover{
+    color:#A9CCE3;
+}
+
+/* Navigatiion Styles*/
+
+nav{
+    background-color:#FFA07A;
+    text-align: center;
+    //float: right;
+}
+
+nav ul{
+    list-style: none;
+
+}
+nav li{
+    display:inline;
+    
+}
+
+nav a{
+    display: inline-grid;
+    padding: 0px 90px;
+    color:white;
+    text-align: center;
+    text-decoration:none;
+    text-transform:none;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 30px;
+
+}
+
+
+
+
+
+
+
+
+
+
+/*footer*/
+
+footer{background-image:"chillhousebackground.png";
+}
