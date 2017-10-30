@@ -2,8 +2,19 @@ html,body{
     margin: 0;
     padding: 0;
 }
+/*style for cafe.html*/
+#cafeimage{
+    margin: 0;
+    padding: 0;     
+}
+#cafebackground{
+    background-image: url(chillhousebackground.png) ;
+    background-repeat:repeat;
+    background-size: 450px 500px;
 
+}
 
+/*style for services.html*/
 #footer1{
     margin: 50;
     padding: 0;
@@ -35,6 +46,13 @@ html,body{
 
 }
 
+#nailservices2{
+    text-align: right;
+    font-size:30px;
+
+}
+
+
 #naildesign{
     text-align: left;
     font-size:40px;
@@ -42,11 +60,16 @@ html,body{
 }
 
 #ladynails{
-    text-align: left;
+    text-align:left;
     font-size:20px;
     
 }
 
+#ladynails2{
+    text-align:center;
+    font-size:25px;
+    
+}
 
 /*
 #nailprice{
@@ -58,6 +81,8 @@ html,body{
 body{
     
 }
+/*style for services.html*/
+
 
 a:hover{
     color:#A9CCE3;
