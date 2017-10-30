@@ -3,6 +3,58 @@ html,body{
     padding: 0;
 }
 
+
+#footer1{
+    margin: 50;
+    padding: 0;
+    text-align: center;
+}
+
+#nailservices{
+    text-align: left;
+    font-size:40px;
+        
+}
+
+#chill{
+        text-align: center;
+        font-size:70px;
+
+}
+
+
+#nailinfo{
+    text-align: left;
+    font-size:50px;
+        
+}
+
+#nailservices{
+    text-align: left;
+    font-size:30px;
+
+}
+
+#naildesign{
+    text-align: left;
+    font-size:40px;
+    
+}
+
+#ladynails{
+    text-align: left;
+    font-size:20px;
+    
+}
+
+
+/*
+#nailprice{
+    text-align:right;
+    font-size:30px;
+}
+*/
+
 body{
     
 }
@@ -42,7 +94,9 @@ nav a{
 
 
 
-
+h1,h2,h3{font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+}
 
 
 
@@ -51,5 +105,10 @@ nav a{
 
 /*footer*/
 
-footer{background-image:"chillhousebackground.png";
+footer{
+    background-image: url(chillhousebackground.png) ;
+    background-repeat:repeat;
+    background-size: 250px 350px;
+
+    
 }
