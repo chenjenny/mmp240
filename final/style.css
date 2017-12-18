@@ -1,0 +1,120 @@
+body {
+	background-color: "white";
+}
+
+
+* {
+	box-sizing: border-box;
+}
+
+
+.row::after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+[class*="place"] {
+	float: left;
+	padding: 40px;
+}
+
+html {
+	font-family: "Raleway", Arial, sans-serif;
+
+}
+
+.header {
+	border: 3px solid black;
+	/*	background-image: url(navstock.png);*/
+	/*	color: #00CCFF;*/
+	color: black;
+	padding: 15px;
+	text-align: center;
+
+}
+
+/*
+.menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.menu li {
+	padding: 8px;
+	margin-bottom: 7px;
+	background-color: #696969;
+	color: #00CED1;
+}
+
+
+*/
+
+.footer {
+	background-color: #333333;
+	color: #00CCFF;
+	text-align: center;
+	font-size: 12px;
+	padding: 15px;
+}
+
+[class*="footer"] {
+	background-color: white;
+	color: #00CCFF;
+	text-align: center;
+	font-size: 14px;
+	padding: 15px;
+
+}
+
+/*		main nav bar*/
+
+nav {
+	background-color: white;
+	text-align: center; //float: right;
+}
+
+nav ul {
+	list-style: none;
+
+}
+
+nav li {
+	display: inline;
+
+}
+
+nav a {
+	display: inline-grid;
+	padding: 0px 90px;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	text-transform: none;
+	font-family: "Raleway", Arial, sans-serif;
+	font-size: 30px;
+
+}
+
+a:hover {
+	color: #00CED1;
+}
+
+
+h1 {
+	text-align: center;
+}
+
+@media only screen and (max-width: 700px) {
+	.responsive {
+		width: 49.99999%;
+		margin: 6px 0;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.responsive {
+		width: 100%;
+	}
+}
